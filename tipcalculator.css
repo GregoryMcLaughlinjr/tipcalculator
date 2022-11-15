@@ -1,0 +1,153 @@
+html{
+  background-color: rgb(98, 138, 172);
+  font-family: sans-serif;
+  color: rgb(71, 131, 191);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header{
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(31, 38, 49);
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  }
+
+#header__logo{
+  height: 60px;
+}
+
+#calculatorOuterShell{
+  background-color: rgb(31, 38, 49);
+  width: 800px;
+  height: 1250px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+
+#calculatorInnerShell{
+  background-color: rgb(238, 238, 238);
+  width: 780px;
+  height: 380px;
+  border-radius: 20px;
+  margin-top: 7px;
+  color: rgb(31, 38, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.calculatorInnerShell__input{
+  background-color: rgb(211, 213, 215);
+  border: none;
+  height: 40px;
+  width: 300px;
+  font-size: x-large;
+  text-align: right;
+  margin-top: 10px;
+
+}
+
+#calculatorInnerShell__input--billAmount{
+  margin-bottom: 10px;
+}
+
+#tip-label{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#calculatorInnerShell__input--tipAmount{
+  margin-bottom: 50px;
+}
+
+#calculatorInnerShell__button{
+  height: 40px;
+  width: 100px;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+h1{
+  font-size: 60px;
+  margin: 10px;
+}
+
+#calculatedAmounts{
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+
+}
+
+
+#splitTheBillOuterShell{
+  background-color: rgb(54, 68, 90);
+  width: 410px;
+  height: 550px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+}
+
+
+
+#splitTheBillInnerShell{
+  background-color: rgb(238, 238, 238);
+  width: 780px;
+  height: 380px;
+  border-radius: 20px;
+  margin-top: 70px;
+  color: rgb(31, 38, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.splitTheBillInnerShell__input{
+  background-color: rgb(211, 213, 215);
+  border: none;
+  height: 40px;
+  width: 300px;
+  font-size: x-large;
+  text-align: right;
+  margin-top: 10px;
+
+}
+
+#tip-label{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#splitTheBillInnerShell__input--numberOfGuests{
+  margin-bottom: 50px;
+}
+
+#splitTheBillInnerShell__button{
+  height: 40px;
+  width: 100px;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-size: 60px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!----------------------------------HEAD--------------------------------------->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tipcalculator.css">
+  <script src="tipcalculator.js"></script>
+  <title>tip calculator</title>
+</head>
+
+<!----------------------------------BODY--------------------------------------->
+
+<body>
+<div id="header">
+  <img src="images/Black & White Minimalist Business Logo.png" alt="Tip Calculator">
+</div>
+ 
+
+  <main>
+
+    <div id=calculatorOuterShell>
+      <div id="calculatorInnerShell">
+
+       <h3>
+        Tip Calculator
+      </h3>
+          
+          <label>
+            Bill Amount
+          </label>
+            <input autofocus type="text" id="calculatorInnerShell__input--billAmount" class="calculatorInnerShell__input" placeholder="$0.00">     
+          <label>
+            Tip Amount
+          </label>   
+            <input type="text" id="calculatorInnerShell__input--tipAmount" class="calculatorInnerShell__input"  placeholder="%">
+
+          <button type="submit" onclick="calculateTip()" id="calculatorInnerShell__button">
+            Calculate
+          </button>
+
+      </div>
+
+
+      <h4>
+        Tip Amount
+      </h4>
+      <h1 id="calculatorInnerShell__tipAmount">
+        $0
+      </h1>
+
+
+    
+    <div id="splitTheBillInnerShell">
+      <h3>Split The Bill</h3>
+      <label>
+        Number Of Guests
+      </label>   
+        <input type="text" id="splitTheBillInnerShell__input--numberOfGuests" class="splitTheBillInnerShell__input"  placeholder="#">
+
+      <button type="submit" onclick="calculateSplit()" id="splitTheBillInnerShell__button">
+        Calculate 
+      </button>
+    </div>
+
+    <h4>
+      Tip Amount Per Guest
+    </h4>
+    <h1 id="splitTheBillInnerShell__tipAmount">
+      $0
+    </h1>
+
+    </div>
+
+    </main>
+  </body>
+</html>
